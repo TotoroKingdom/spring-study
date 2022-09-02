@@ -2,6 +2,7 @@ package com.totoro.config;
 
 import com.totoro.bean.Bird;
 import com.totoro.bean.Fish;
+import com.totoro.bean.MyBeanPostProcessor;
 import com.totoro.bean.User;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,6 +14,11 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class WebConfig {
+
+    @Bean
+    public MyBeanPostProcessor myBeanPostProcessor(){
+        return new MyBeanPostProcessor();
+    }
 
     @Bean
     public Fish fish(){

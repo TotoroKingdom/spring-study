@@ -9,16 +9,19 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-component-register" />
         <module name="spring-bean-lifecycle" />
+        <module name="spring-bean-processor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-bean-lifecycle" target="1.8" />
+      <module name="spring-bean-processor" target="1.8" />
       <module name="spring-component-register" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-bean-lifecycle" options="-parameters" />
+      <module name="spring-bean-processor" options="-parameters" />
       <module name="spring-component-register" options="-parameters" />
     </option>
   </component>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/spring-bean-lifecycle/spring-bean-lifecycle.iml" filepath="$PROJECT_DIR$/spring-bean-lifecycle/spring-bean-lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-bean-processor/spring-bean-processor.iml" filepath="$PROJECT_DIR$/spring-bean-processor/spring-bean-processor.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-component-register/spring-component-register.iml" filepath="$PROJECT_DIR$/spring-component-register/spring-component-register.iml" />
     </modules>
   </component>
