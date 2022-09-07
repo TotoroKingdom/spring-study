@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-bean-factory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-bean-lifecycle/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-bean-processor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-component-register/src/main/java" charset="UTF-8" />
