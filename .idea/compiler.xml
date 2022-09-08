@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-component-register" />
+        <module name="spring-listener" />
         <module name="spring-bean-processor" />
         <module name="spring-aop" />
         <module name="spring-bean-lifecycle" />
@@ -20,6 +21,7 @@
       <module name="spring-bean-lifecycle" target="1.8" />
       <module name="spring-bean-processor" target="1.8" />
       <module name="spring-component-register" target="1.8" />
+      <module name="spring-listener" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -29,6 +31,7 @@
       <module name="spring-bean-lifecycle" options="-parameters" />
       <module name="spring-bean-processor" options="-parameters" />
       <module name="spring-component-register" options="-parameters" />
+      <module name="spring-listener" options="-parameters" />
     </option>
   </component>
 </project>
