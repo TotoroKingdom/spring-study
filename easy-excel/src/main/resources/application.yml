@@ -1,0 +1,18 @@
+# mysql连接信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/world?characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&rewriteBatchedStatements=true
+    username: root
+    password: root
+  thymeleaf:
+    cache: false  #设置为false，否则会有缓存，导致页面没法及时看到更新后的效果。
+#修改端口号默认是8080
+server:
+  port: 8888
+#mybatis-plus相关配置
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml #扫描mapper下的所有xml文件
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.totoro.pojo   #扫描实体类包/配置别名
